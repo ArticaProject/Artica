@@ -1,0 +1,20 @@
+/* Utils */
+@import url('reset.css');
+@import url('colors.css');
+@import url('bootstrap.css');
+@import url('general.css');
+
+/* Fonts */
+@import url('fonts.css');
+
+/* Layouts */
+@import url('layout/header.css');
+@import url('layout/landing.css');
+@import url('layout/services.css');
+@import url('layout/portfolio.css');
+@import url('layout/about_us.css');
+@import url('layout/skills.css');
+@import url('layout/blog.css');
+@import url('layout/clients.css');
+@import url('layout/contact_us.css');
+@import url('layout/footer.css');
