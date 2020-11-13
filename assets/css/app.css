@@ -1,8 +1,8 @@
 /* Utils */
 @import url('reset.css');
-@import url('colors.css');
 @import url('bootstrap.css');
 @import url('general.css');
+@import url('colors.css');
 
 /* Fonts */
 @import url('fonts.css');
