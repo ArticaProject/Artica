@@ -1,0 +1,32 @@
+.landing {
+	height: 101px;
+	background-color: #fff;
+	border-top: 2px solid #161f32;
+}
+
+.logo {
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+.logo a {
+	font-size: 37px;
+	color: #161f32;
+	font-weight: 400;
+	font-family: "Molle";
+	
+
+	padding: 32px 0 39px 0;
+
+}
+
+.nav {
+	float: right;
+}
+
+.landing-info {
+	height: 702px;
+	background: url(../../img/artica.jpg) no-repeat center center;
+	background-size: cover;
+
+}
