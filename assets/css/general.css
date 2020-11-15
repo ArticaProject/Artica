@@ -3,6 +3,61 @@
 	margin: 0 auto;
 }
 
+.main {
+	padding: 67px 200px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.main > h4 {
+	font-size: 30px;
+	font-family: 'Lato';
+	text-transform: uppercase;
+}
+
+.main > h3 {
+	font-size: 20px;
+	font-family: 'Lato';
+	text-transform: uppercase;
+}
+
+.main > p {
+	font-size: 15px;
+	font-family: 'Lato';
+}
+
+.inner-nav {
+	
+}
+
+.inner-nav ul {
+	float: left;
+	display: table;
+}
+
+.inner-nav ul li {
+	float: left;
+	margin-right: 19px;
+	display: table-cell;
+}
+
+.inner-nav ul li:last-child {
+	margin-right: 0px;
+}
+
+.inner-nav ul li.active a {
+	background: #00c7fc;
+}
+
+.inner-nav ul li a {
+	color: #fff;
+	background: #3d506f;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 23px;
+}
+
 .clear:after {
 	content: '';
 	display: block;
