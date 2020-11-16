@@ -4,10 +4,10 @@
 }
 
 .main {
-	padding: 67px 200px;
-	position: relative;
+	max-width: 770px;
+	margin: 67px 200px;
 	text-align: center;
-	margin: 0 auto;
+	position: absolute;
 }
 
 .main > h4 {
@@ -28,7 +28,8 @@
 }
 
 .inner-nav {
-	
+	margin: 70px 0;
+	display: inline-block;
 }
 
 .inner-nav ul {
