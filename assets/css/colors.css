@@ -12,7 +12,13 @@
 	background-color: #222C40;
 }
 
-/* Input, buttons */
+/* Input, buttons*/
 .astronaut {
 	background-color: #3D506F;
+}
+
+/*Headings*/
+
+.astro {
+	color: #3D506F;
 }
