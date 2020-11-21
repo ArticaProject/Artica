@@ -1,0 +1,110 @@
+.title{
+  position: relative;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  
+}
+.title h3 {
+  font-size: 30px;
+  color: #3d506f;
+  font-weight: 400;
+  font-family: 'Lato';
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.title h4{
+  font-size: 20px;
+  color: #7f90a5;
+  font-weight: 400;
+  font-family: 'Lato';
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.container1 {
+  max-width: 570px;
+  height: 1px;
+  background-color: #222c3f;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.circle1 {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border:1px solid #222c3f;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  left: calc(50% - 5px);
+  margin: auto;
+}
+.title p {
+  padding-top: 28px;
+  font-size: 15px;
+  color: #7f90a5;
+  font-weight: 400;
+  font-family: 'Lato';
+  text-align: center;
+}
+.service div {
+  display: inline-block;
+  padding-top: 65px;
+}
+.service svg {
+  display: block;
+  box-sizing: border-box;
+  background-color: #222c3f;
+  fill: #fff;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 30px auto;
+
+}
+.service h4{
+  font-size: 20px;
+  color: #3d506f;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Lato';
+  padding-top: 20px;
+}
+.service p{
+  font-size: 15px;
+  color: #7f90a5;
+  font-weight: 400;
+  font-family: 'Lato';
+  text-align: center;
+  padding-top: 20px;
+}
+.Quoteback{
+  background-color: #222c3f;
+}
+.Quote p{
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: 'Lato';
+  text-align: center;
+  padding-top: 70px;
+}
+.Quote h4{s
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Lato';
+  text-align: center;
+  padding-top: 43px;
+  padding-bottom: 65px;
+}
