@@ -5,7 +5,9 @@
 
 .blog-head,
 .blog-footer {
-	padding: 67px 200px;
+	max-width: 770px;
+	margin: 0 auto;
+	padding: 45px 0 25px 0;
 	color: #7f90a5;
 }
 
@@ -90,7 +92,7 @@
 
 .blog-item-vertical img + .blog-content {
 	width: 100%;
-	
+	max-width: 370px;
 }
 
 .blog-content {
