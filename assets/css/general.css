@@ -48,6 +48,7 @@
 	color: #7f90a5;
 	font-size: 15px;
 	font-family: 'Lato';
+	margin-bottom: 63px;
 }
 
 /* Separator */
@@ -68,36 +69,30 @@
 }
 
 /* Inner Navigation */
-.inner-nav {
-	margin: 35px 0 0 0;
-	display: inline-block;
-}
+/*---Blog and Portfolio--*/
 
 .inner-nav ul {
-	float: left;
-	display: table;
+	display: block;
+	list-style: none;
+	text-align: center;
 }
 
-.inner-nav ul li {
-	float: left;
-	margin: 12px;
-	display: table-cell;
+.inner-nav ul li  {
+	display: inline-block;
+	margin-bottom: 69px;
 }
 
-.inner-nav ul li.active a {
-	background: #00c7fc;
+.inner-nav ul li.active a,
+a:hover  {
+	background-color: #00c7fc;	
 }
 
 .inner-nav ul li a {
-	color: #fff;
-	background: #3d506f;
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #fff;
 	padding: 10px 23px;
-}
-
-.inner-nav ul li a:hover {
-	background: #00c7fc;
+	margin-right: 20px;
 }
 
 .icon-circle {
