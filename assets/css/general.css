@@ -126,3 +126,7 @@ a:hover  {
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 }
+
+button:hover {
+	background-color: #00c7fc;
+} 
