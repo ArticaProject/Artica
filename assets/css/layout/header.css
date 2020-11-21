@@ -15,16 +15,14 @@
 	color: #161f32;
 	font-weight: 400;
 	text-align: center;
-	display: block;
 	font-family: "Molle";
 	padding: 32px 0 39px 0;
 }
 nav {
 	text-align: center;
-	display: block;
 	position: absolute;
-	right: 0;
-	left: 0;
+	right: 20px;
+	top: 0;
 	margin: 8px auto;
 }
 .menu{
