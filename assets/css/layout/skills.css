@@ -90,37 +90,40 @@
 .gd {width: 92%;} 
 .photo {width: 87%;} 
 
-/*--Info-num--*/
-.info-num ul li {
-	display: inline-block;
-	position: relative;
-	float: left;
-	padding: 92px 231px 103px 60px;
+.skills-footer {
+	width: 100%;
 }
+/*--Counters--*/
 
-.info-num ul li i{
-	font-size: 68px;
-	font-family: 'Font Awesome';
+.counters {
+	width: 100%;
 	color: #00c7fc;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	font-family: 'Lato', 'Font Awesome';
+	box-sizing: border-box;
+	position: relative;
+	background-color: #
 }
 
-.info-num ul li p {
-	font-family: 'Lato';
+.counters .counter {
+	display: inline-block;
+	float: left;
+	position: absolute;
+	top: 15%;
+	left: 37%;
+}
+
+i {
+	font-size: 75px;
+	position: relative;
+}
+
+.counters  p {
+	position: absolute;
+	top: 60%;
+	left: 38%;
 	font-size: 15px;
-	font-weight: 400;
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	transform: translateX(73px);
 }
 
-.info-num span {
-	color: #fff;
-	font-size: 30px;
-	position: absolute;
-	top: 35%;
-	transform: translateX(75px);
+.counter {
+	font-size: 40px;
 }
