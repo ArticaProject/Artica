@@ -1,0 +1,129 @@
+.skills-head {
+	padding: 67px 200px;
+	font-family: 'Lato';
+	color: #7f90a5;
+}
+
+.skills-head  h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 1px;
+
+	margin-bottom: 25px;
+}
+
+.skills-head  p {
+	text-align: center;
+	font-size: 15px;
+}
+
+/*--Company--*/
+
+.company {
+	font-family: 'Lato';
+
+}
+
+.company h3 {
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: 400;
+	color: #3d506f;
+}
+
+.company p {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.company button {
+	width: 171px;
+	height: 51px;
+	padding: 0;
+	color: #fff;
+	font-size: 15px;
+	border: none;
+	box-sizing: border-box;
+	margin-bottom: 68px;
+}
+
+.company button:hover {
+	background-color: #00c7fc;
+}
+
+.company,
+.skills-inner {
+ 	color: #7f90a5;
+ }
+
+/*--Skills-Inner--*/
+
+.skills-inner h3 {
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+
+/*-----Skill Bars------*/
+.bars {
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.bar {
+	margin-bottom: 8px;
+	text-align: left;
+ 	color: #fff; 
+ 	max-width: 569px;
+ 	height: 42px;
+ 	font-family: "Lato";
+}
+
+.bar:last-child {
+	margin-bottom: 0;
+}
+
+.html {width: 89%;} 
+.js {width: 82%;} 
+.gd {width: 92%;} 
+.photo {width: 87%;} 
+
+.skills-footer {
+	width: 100%;
+}
+/*--Counters--*/
+
+.counters {
+	width: 100%;
+	color: #00c7fc;
+	font-family: 'Lato', 'Font Awesome';
+	box-sizing: border-box;
+	position: relative;
+	background-color: #
+}
+
+.counters .counter {
+	display: inline-block;
+	float: left;
+	position: absolute;
+	top: 15%;
+	left: 37%;
+}
+
+i {
+	font-size: 75px;
+	position: relative;
+}
+
+.counters  p {
+	position: absolute;
+	top: 60%;
+	left: 38%;
+	font-size: 15px;
+}
+
+.counter {
+	font-size: 40px;
+}

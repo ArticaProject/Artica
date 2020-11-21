@@ -1,0 +1,39 @@
+#portfolio > .wrap [id^="item"] {
+	width: 270px;
+	height: 200px;
+	background: #546278;
+	margin: 20px auto;
+}
+
+#portfolio > .wrap [id^="item"].active {
+	background: #222c40;
+}
+
+#portfolio  #item-expand {
+	max-width: 100%;
+	height: 420px;
+	background: #546278;
+	margin: 20px auto;
+}
+
+#portfolio > .expand > .wrap h3 {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	margin: 20px auto;
+}
+
+#portfolio > .expand > .wrap p {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Lato';
+}
+
+#portfolio > .expand > .wrap span {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Lato';
+	display: block;
+}
