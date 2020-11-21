@@ -1,6 +1,6 @@
 
 .skills-head {
-	max-width: 770px;
+	
 	margin: 0 auto;
 	padding: 45px 0 25px 0;
 	text-align: center;
@@ -59,6 +59,9 @@
  }
 
 /*--Skills-Inner--*/
+.skills-inner {
+	margin-bottom: 69px;
+}
 
 .skills-inner h3 {
 	margin-bottom: 25px;
@@ -76,6 +79,7 @@
 .bar {
 	margin-bottom: 8px;
 	text-align: left;
+	padding: 10px;
  	color: #fff; 
  	max-width: 569px;
  	height: 42px;
@@ -94,6 +98,7 @@
 .skills-footer {
 	width: 100%;
 }
+
 /*--Counters--*/
 
 .counters {
@@ -102,15 +107,14 @@
 	font-family: 'Lato', 'Font Awesome';
 	box-sizing: border-box;
 	position: relative;
-	background-color: #
 }
 
 .counters .counter {
 	display: inline-block;
-	float: left;
 	position: absolute;
 	top: 15%;
 	left: 37%;
+	font-size: 40px;
 }
 
 i {
@@ -125,6 +129,40 @@ i {
 	font-size: 15px;
 }
 
-.counter {
-	font-size: 40px;
+/*--Custom style for media---*/
+
+@media only screen and (max-width: 1024px) {
+	i {
+		font-size: 75px;
+		padding-left: 240px;
+	}
+
+	.counters .counter {
+		top: 15%;
+		left: 38%;
+	}
+
+	.counters  p {
+		top: 60%;
+		left: 38%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	i {
+		font-size: 75px;
+		position: relative;
+		padding-left: 80px; 
+	}
+
+	.counters .counter {
+		top: 15%;
+		left: 50%;
+	}
+
+	.counters  p {
+		position: absolute;
+		top: 60%;
+		left: 50%;
+	}
 }
