@@ -5,12 +5,12 @@
 }
 
 .skills-head  h2 {
-	text-align: center;
-	text-transform: uppercase;
 	font-size: 30px;
-	line-height: 1px;
-
-	margin-bottom: 25px;
+	font-weight: 400;
+	color: #3d506f;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 24px;
 }
 
 .skills-head  p {
