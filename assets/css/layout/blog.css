@@ -1,6 +1,11 @@
-.blog-head {
-	padding: 67px 200px;
+.blog {
 	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.blog-head,
+.blog-footer {
+	padding: 67px 200px;
 	color: #7f90a5;
 }
 
@@ -21,6 +26,7 @@
 	margin-bottom: 24px;
 }
 
+/*--Separator--*/
 .separator {
 	position: relative;
 	height: 1px;
@@ -52,15 +58,14 @@
 	box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
 }
 
+
+/*--Blog--*/
 .blog-head p {
 	font-size: 15px;
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 69px;
 }
-
-
-/*--Blog--*/
 
 .blog-body {
 	background-color: #fff;
@@ -83,16 +88,20 @@
 	width: 50%;
 }
 
+.blog-item-vertical img + .blog-content {
+	width: 100%;
+	
+}
+
 .blog-content {
 	background-color: #161f32;
-	width: 100%;
 	height: 300px;
 	overflow: hidden;
 	padding: 25px 28px;
 	margin-bottom: 30px;
 }
 
-.blog-item h3 {
+.blog-item, h3 {
 	font-size: 25px;
 }
 
@@ -105,5 +114,52 @@
 	color: #7f90a5;
 }
 
+/*--Blog footer--*/
+.form {
+	position: relative;
+}
 
+.subscribe-form  {
+	color: #fff;
+	font-size: 20px;
+}
 
+.blog-footer .icon-circle {
+	margin-bottom: 63px;	
+}
+
+.blog-footer h3 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #3d506f;
+	font-family: "Lato";
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 34px;
+}
+
+.blog-footer p {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 69px;
+  }
+
+.subscribe-form .form-group .form-control {
+	width: 572px;
+	height: 68px;
+}
+
+.subscribe-form .form-group .submit {
+	width: 172px;
+	height: 66px;
+}
+
+.subscribe-form .form-group .submit:hover {
+	background-color: #00c7fb;
+}
+
+::placeholder {
+	color: #fff;
+	padding-left: 25px;
+}
