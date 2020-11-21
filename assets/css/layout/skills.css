@@ -1,6 +1,9 @@
 
 .skills-head {
-	padding: 67px 200px;
+	max-width: 770px;
+	margin: 0 auto;
+	padding: 45px 0 25px 0;
+	text-align: center;
 	font-family: 'Lato';
 	color: #7f90a5;
 }
@@ -48,6 +51,7 @@
 	box-sizing: border-box;
 	margin-bottom: 68px;
 }
+
 
 .company,
 .skills-inner {
