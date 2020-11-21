@@ -1,3 +1,4 @@
+
 .skills-head {
 	padding: 67px 200px;
 	font-family: 'Lato';
@@ -46,10 +47,6 @@
 	border: none;
 	box-sizing: border-box;
 	margin-bottom: 68px;
-}
-
-.company button:hover {
-	background-color: #00c7fc;
 }
 
 .company,
