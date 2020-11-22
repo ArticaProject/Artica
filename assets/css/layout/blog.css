@@ -102,6 +102,18 @@
 	margin-bottom: 30px;
 }
 
+.left-arrow:after {
+	position: absolute;
+	top: 50px;
+	left: 285px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-right: solid 16px #161f32;
+	border-bottom: solid 15px transparent;	
+	border-top: solid 15px transparent;
+}
+
 .blog-item, h3 {
 	font-size: 25px;
 }
