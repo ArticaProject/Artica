@@ -22,3 +22,6 @@
 	src: url('../fonts/fa/fontawesome-webfont.woff2') format('woff2'),
 		 url('../fonts/fa/fontawesome-webfont.woff') format('woff');
 }
+
+/* Custom Fonts*/
+@import url('custom_fonts.css');
