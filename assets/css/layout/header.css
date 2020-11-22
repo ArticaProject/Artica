@@ -102,3 +102,56 @@ nav {
 }
 
 
+/*main-nav*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #222c3f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: -14px;
+	left: -20px;
+	font-size: 36px;
+	margin-right: 36px;
+	border-radius: 23%;
+}
+
+.sidenav .closebtn:hover {
+	background-color: ;
+}
+
+#main-nav {
+  transition: margin-left .5s;
+}
+
+#main-nav span {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 35px;}
+  .sidenav a {font-size: 18px;}
+}

@@ -130,17 +130,17 @@ i {
 @media only screen and (max-width: 1024px) {
 	i {
 		font-size: 75px;
-		padding-left: 240px;
+		padding-left: 200px;
 	}
 
 	.counters .counter {
 		top: 15%;
-		left: 38%;
+		left: 63%;
 	}
 
 	.counters  p {
 		top: 60%;
-		left: 38%;
+		left: 63%;
 	}
 }
 
