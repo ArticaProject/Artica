@@ -1,0 +1,14 @@
+footer {
+	color: #fff;
+	font-family: 'Lato';
+	padding: 35px 0;
+}
+
+footer span {
+	font-size: 35px;
+	font-family: 'Molle';
+}
+
+footer p {
+	font-size: 11px;
+}

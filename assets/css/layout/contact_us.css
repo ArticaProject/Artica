@@ -1,0 +1,59 @@
+#contact_us h4,
+#contact_us h3,
+#contact_us h2,
+#contact_us span,
+#contact_us p {
+	color: #fff;
+	font-family: 'Lato';
+}
+
+#contact_us h3 {
+	font-size: 20px;
+	text-transform: uppercase; 
+}
+
+#contact_us span {
+	font-size: 20px;
+}
+
+/* Inputs */
+#contact_us form input,
+#contact_us form textarea {
+	width: 100%;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Lato';
+	font-style: italic;
+	background: #161f32;
+	border: 1px solid white;
+	padding: 0 25px;
+	outline: none;
+} 
+
+#contact_us form input {
+	height: 65px;
+	margin: 5px 0;
+}
+
+#contact_us form textarea {
+	height: 211px;
+	padding-top: 21px;
+	margin: 25px 0 25px 0;
+	resize: none;
+}
+
+#contact_us form input[type=submit] {
+	width: 235px;
+	color: #3d506f;
+	background: #fff;
+	border: none;
+}
+
+#contact_us form input[type=submit]:hover {
+	color: #fff;
+	background: #00c7fc;
+}
+
+::placeholder {
+	color: #fff;
+}
