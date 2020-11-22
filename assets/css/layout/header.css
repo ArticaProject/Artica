@@ -57,9 +57,10 @@ nav {
 	text-align: center;
 	padding-top: 43px;
 }
-.container {
+.cf {
   max-width: 570px;
   height: 1px;
+  margin: 0 auto;
   background-color: #FFF;
   position: relative;
 }
