@@ -1,16 +1,17 @@
 var counters = document.querySelectorAll('.counter');
 
-counters.forEach(counter => {
-	var updateCount = () => {
-		var target = +counter.getAttribute('data-target');
-		var count = +counter.innerText;
+const counterFunction = (counter, maxCount) => {
+	let count = parseFloat(counter.innerText)
+	
+	if (count <= maxCount) {
+		counter.innerText = count + 1;
+		setTimeout(() => {
+			counterFunction(counter, maxCount)
+		}, 1);
+	}
+}
 
-			if (count < target) {
-				counter.innerText = count + 1;
-				setInterval(updateCount,300);
-			} else {
-				counter.innerText = target;
-				}
-	};
-updateCount();
+counters.forEach(counter => {
+	let target = +counter.getAttribute('data-target');
+	counterFunction(counter, target);
 });
