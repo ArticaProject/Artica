@@ -1,11 +1,11 @@
 @font-face {
-	font-family: 'custom';
-	src: url('../fonts/custom/custom.ttf?d37mpo') format('truetype'),
-			 url('../fonts/custom/custom.woff?d37mpo') format('woff'),
-			 url('../fonts/custom/custom.svg?d37mpo#custom') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
+  font-family: 'custom';
+  src: url('../fonts/custom/custom.ttf?d37mpo') format('truetype'),
+           url('../fonts/custom/custom.woff?d37mpo') format('woff'),
+           url('../fonts/custom/custom.svg?d37mpo#custom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
