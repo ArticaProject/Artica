@@ -1,0 +1,58 @@
+#about_us h4,
+#about_us h3,
+#about_us h2,
+#about_us span,
+#about_us p {
+	color: #fff;
+	font-family: 'Lato';	
+}
+
+#about_us h3 {
+	font-size: 20px;
+}
+
+#about_us span {
+	font-size: 15px;
+	font-weight: 200;
+}
+
+#about_us .expand {
+	margin-top: 25px;
+}
+
+#about_us .expand span {
+	float: left;
+	padding-right: 5px;
+}
+
+.icon-circle-lg {
+	width: 215px;
+	height: 215px;
+	border: 1px solid white;
+	border-radius: 100%;;
+	background-position: 50% 50%;
+	background-size: cover;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.icon-circle-lg:hover {
+	opacity: 60%;
+}
+
+.member1 {
+	background-image: url('../../img/about_us/member1.jpg');
+}
+
+.member2 {
+	background-image: url('../../img/about_us/member2.jpg');
+}
+
+.member3 {
+	background-image: url('../../img/about_us/member3.jpg');
+}
+
+.member4 {
+	background-image: url('../../img/about_us/member4.jpg');
+}
+
