@@ -2,6 +2,10 @@
 .navigation{
 	max-height: 100px;
 	border-top:2px solid #151f31;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background-color: #fff;
 }
 .navigation a{
 	text-decoration: none;
@@ -40,15 +44,13 @@ nav {
 	position: relative;
 	padding-top: 170px;
 }
-.darkblue{
-	background-color: #222c3f;
-}
-.darkblue .inf{
+
+.midnight .inf{
 	margin: auto;
-	background-color: #222c3f;
 	box-sizing: border-box;
 }
-.darkblue .inf h3{
+
+.midnight .inf h3{
 	font-family: 'Molle';
 	font-size: 52px;
 	color: #ffffff;
