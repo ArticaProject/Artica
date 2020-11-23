@@ -4,7 +4,8 @@
 #about_us span,
 #about_us p {
 	color: #fff;
-	font-family: 'Lato';	
+	font-family: 'Lato';
+	padding-bottom: 15px;	
 }
 
 #about_us h3 {
