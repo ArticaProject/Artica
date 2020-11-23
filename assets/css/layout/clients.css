@@ -1,0 +1,29 @@
+.space{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+}
+.space p{
+	padding-top: 10px;
+}
+.space h4 ,
+.space p {
+	color: #Fff;
+}
+.space img {
+	margin-bottom: 15px;
+}
+#clients .main h4, p {
+	margin: 10px 0 15px 0px; 
+}
+
+#clients .separator-grey {
+	margin-bottom: 20px;
+}
+#clients .main span {
+	font-size: 20px;
+	color: #3d506f;
+	font-weight: 400;
+	font-family: "Lato";
+	text-align: center;
+}
