@@ -10,11 +10,35 @@
 #contact_us h3 {
 	font-size: 20px;
 	text-transform: uppercase; 
+
 }
 
 #contact_us span {
-	font-size: 20px;
 	font-family: 'Font Awesome';
+}
+
+#contact_us span i {
+	color: #000;
+	font-size: 35px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.contact-circle {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 29px;
+}
+
+#contact_us h3 + p {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 /* Inputs */
