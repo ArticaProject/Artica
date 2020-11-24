@@ -1,29 +1,6 @@
-.skills-head {
-	max-width: 770px;
-	padding: 45px 0 25px 0;
-	text-align: center;
-	font-family: 'Lato';
-	color: #7f90a5;
-}
-
-.skills-head  h2 {
-	font-size: 30px;
-	font-weight: 400;
-	color: #3d506f;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 24px;
-}
-
-.skills-head p {
-	font-size: 15px;
-	text-align: center;
-}
-
 /*--Company--*/
 .company {
 	font-family: 'Lato';
-
 }
 
 .company h3 {
