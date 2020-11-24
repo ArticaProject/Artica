@@ -11,7 +11,8 @@ body{
 }
 
 /* Main for all sections */
-.main {
+.main,
+.blog-footer {
 	max-width: 770px;
 	margin: 0 auto;
 	padding: 45px 0 25px 0;
