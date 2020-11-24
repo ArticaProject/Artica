@@ -3,36 +3,15 @@
 	font-weight: 400;
 }
 
-.blog-head,
-.blog-footer {
-	max-width: 770px;
-	margin: 0 auto;
-	padding: 45px 0 25px 0;
-	color: #7f90a5;
-}
-
-.blog-head h2 {
-	font-size: 30px;
-	font-weight: 400;
-	color: #3d506f;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 24px;
-}
-
-.blog-head h3 {
-	font-size: 20px;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 24px;
+.blog.main h3 { 
+	margin-bottom: 20px;
 }
 
 /*--Separator--*/
 .separator {
 	position: relative;
 	height: 1px;
-	margin-bottom: 25px;
+	margin: 20px 0 25px 0;
 }
 
 .sep-trans:before {
@@ -60,14 +39,7 @@
 	box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
 }
 
-/*--Blog--*/
-.blog-head p {
-	font-size: 15px;
-	font-weight: 400;
-	text-align: center;
-	margin-bottom: 69px;
-}
-
+/*--Blog section--*/
 .blog-body {
 	background-color: #fff;
 	font-weight: 400;
@@ -139,23 +111,6 @@
 .blog-footer .button-circle {
 	margin-bottom: 63px;
 }
-
-.blog-footer h3 {
-	font-size: 30px;
-	font-weight: 400;
-	color: #3d506f;
-	font-family: "Lato";
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 34px;
-}
-
-.blog-footer p {
-	font-size: 15px;
-	font-weight: 400;
-	text-align: center;
-	margin-bottom: 69px;
- }
 
 .subscribe-form .form-group .form-control {
 	width: 70%;
